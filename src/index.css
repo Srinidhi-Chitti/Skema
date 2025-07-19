@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@keyframes gradient {
+  0% { background-color: #ff6a6a; }
+  25% { background-color: #ff6a9c; }
+  50% { background-color: #6a6aff; }
+  75% { background-color: #6aff6a; }
+  100% { background-color: #ff6a6a; }
+}
+
+.bg-gradient-animation {
+  animation: gradient 10s ease infinite;
+  background: linear-gradient(270deg, #ff6a6a, #ff6a9c, #6a6aff, #6aff6a);
+  background-size: 400% 400%;
+}
+
